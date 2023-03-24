@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title %}Accueil{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+
+<table id="myTab" class="table table-striped">
+    <thead>
+      <tr>
+        <th>numéro seveur web</th>
+        <th>nom serveur web</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>WebSite</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>API</td>
+          </tr>
+    </tbody>
+
+</table>
+
+{% endblock %}
