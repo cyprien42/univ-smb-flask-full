@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}Connexion{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+
+
+
+<h1>Liste des utilisateurs autorisés</h1>
+	<ul>
+		<li><a href="#user1">Utilisateur 1</a></li>
+	</ul>
+	<h2 id="user1">Utilisateur 1</h2>
+	<p>Nom: Treboz<br>
+	Prénom: Cyprien<br>
+	Age: 20 ans<br>
+	Email: cyprien.treboz@etu.univ-savoie.fr</p>
+
+{% endblock %}

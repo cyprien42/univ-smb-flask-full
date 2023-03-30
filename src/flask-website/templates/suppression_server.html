@@ -1,0 +1,19 @@
+
+{% extends "layout.html" %}
+{% block title %}Connexion{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+
+
+
+<form>
+    <label for="nom_serveur">Nom du serveur :</label>
+    <input type="text" id="nom_serveur" name="nom_serveur"><br><br>
+    <label for="confirmation">Confirmez la suppression :</label>
+    <input type="checkbox" id="confirmation" name="confirmation"><br><br>
+    <input type="submit" value="Supprimer le serveur">
+</form>
+
+{% endblock %}
