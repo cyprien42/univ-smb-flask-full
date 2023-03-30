@@ -6,3 +6,7 @@ app = Flask(__name__)
 def start(): 
     return render_template('start.html')
     
+@app.route("/authentification")
+def start(): 
+    return render_template('authentification.html')
+    
