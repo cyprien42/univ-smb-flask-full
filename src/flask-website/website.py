@@ -7,6 +7,6 @@ def start():
     return render_template('start.html')
     
 @app.route("/authentification")
-def start(): 
+def auth(): 
     return render_template('authentification.html')
     
